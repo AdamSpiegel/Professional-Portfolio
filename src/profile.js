@@ -166,7 +166,7 @@ const contact = {
   pitch:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
   copyright: "Adam Spiegel",
-  contactUrl: "",
+  contactUrl: "https://formspree.io/f/myylokja",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
