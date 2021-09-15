@@ -175,7 +175,7 @@ const social = {
   facebook: "https://www.facebook.com/adam.spiegel.522/",
   instagram: "https://www.instagram.com/aspieg23/",
   linkedin: "https://www.linkedin.com/in/adam-spiegel/",
-  resume: "https://drive.google.com/file/d/16Mvfj_NmQ_OEPZnYMF9scZk0q8z6sakv/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1owH2g0QwTcrjCNRtt144rUGjyXmbTP8a/view?usp=sharing",
 };
 // Dont change anything here
 export {
