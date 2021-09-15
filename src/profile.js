@@ -142,7 +142,7 @@ const miscellaneous = [
   {
     // Add image in './styles/images.css' in #misc1
     id: "misc1",
-    name: "Tops Baseball Card Evaluator - Coming Soon!",
+    name: "Topps Baseball Card Evaluator - Coming Soon!",
     url: "",
   },
   {
