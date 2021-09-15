@@ -169,7 +169,7 @@ const contact = {
   contactUrl: "https://formspree.io/f/myylokja",
 };
 // Paste your respective social media links. You can omit any if you dont have it
-// Upload your resume in your drive, get the shaareable link and paste it in the resume section
+// Upload your resume in your drive, get the shareable link and paste it in the resume section
 const social = {
   github: "https://github.com/AdamSpiegel",
   facebook: "https://www.facebook.com/adam.spiegel.522/",
