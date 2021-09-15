@@ -164,7 +164,7 @@ const miscellaneous = [
 const section5Title = "Let's Connect!";
 const contact = {
   pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
+    "Thank you for visiting my portfolio! Please find my media links and resume below.  I look forward to speaking with you soon!",
   copyright: "Adam Spiegel",
   contactUrl: "https://formspree.io/f/myylokja",
 };
@@ -175,7 +175,7 @@ const social = {
   facebook: "https://www.facebook.com/adam.spiegel.522/",
   instagram: "https://www.instagram.com/aspieg23/",
   linkedin: "https://www.linkedin.com/in/adam-spiegel/",
-  resume: "https://novoresume.com/",
+  resume: "https://drive.google.com/file/d/16Mvfj_NmQ_OEPZnYMF9scZk0q8z6sakv/view?usp=sharing",
 };
 // Dont change anything here
 export {
