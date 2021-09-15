@@ -137,25 +137,25 @@ const projects = [
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "Miscellaneous";
+const section4Title = "Upcoming Projects";
 const miscellaneous = [
   {
     // Add image in './styles/images.css' in #misc1
     id: "misc1",
-    name: "Miscellaneous 1",
-    url: "https://github.com/kaustubhai",
+    name: "Tops Baseball Card Evaluator - Coming Soon!",
+    url: "",
   },
   {
     // Add image in './styles/images.css' in #misc2
     id: "misc2",
-    name: "Miscellaneous 2",
-    url: "https://github.com/kaustubhai",
+    name: "Parent Pal! - A parenting web app organization tool for the everyday Mom/Dad - Coming Soon!",
+    url: "",
   },
   {
     // Add image in './styles/images.css' in #misc3
     id: "misc3",
-    name: "Miscellaneous 3",
-    url: "https://github.com/kaustubhai",
+    name: "My Family Life - A Fatherhood Story - Coming Soon!",
+    url: "",
   },
 ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
@@ -164,7 +164,7 @@ const miscellaneous = [
 const section5Title = "Let's Connect!";
 const contact = {
   pitch:
-    "Thank you for visiting my portfolio! Please find my media links and resume below.  I look forward to speaking with you soon!",
+    "Thank you for visiting my portfolio! Please find all of my media links and resume to download below.  Please do reach out, I look forward to speaking with you soon!",
   copyright: "Adam Spiegel",
   contactUrl: "https://formspree.io/f/myylokja",
 };
