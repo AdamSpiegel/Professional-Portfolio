@@ -13,14 +13,14 @@ const header = {
 };
 const background = {
   // Options: Snow or Particle
-  type: "Snow",
+  type: "Particle",
 };
 // Write a para about yourself here
 // To update your image, go to './styles/images.css'
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
+    "Full Stack Web Developer and a recent graduate (Sept 2, 2021) of the UConn Coding Bootcamp program.  Extensive experience in Program and Project Management. A proven team leader and collaborator with 9 years of managerial experience within the corporate health and wellness industry. Recently leveraged strong problem solving and analytical skills, with a strong emphasis on team collaboration (team project application development) through the UConn Full Stack Web Development program. Looking for an exciting new career in the tech field and to learn about the opportunities available. I have a strong desire to work for an employer that can offer a strong career path with inspiring goals to meet, along with a culture of team collaboration. Please connect with me, I would love to discuss my experience and story with you more!",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -42,29 +42,9 @@ const skillsBar = [
     faClass: "fab fa-js",
   },
   {
-    name: "SASS",
+    name: "React",
     // svg: '',
-    faClass: "fab fa-sass",
-  },
-  {
-    name: "Node",
-    // svg: '',
-    faClass: "fab fa-node",
-  },
-  {
-    name: "Python",
-    // svg: '',
-    faClass: "fab fa-python",
-  },
-  {
-    name: "Java",
-    // svg: '',
-    faClass: "fab fa-java",
-  },
-  {
-    name: "PHP",
-    // svg: '',
-    faClass: "fab fa-php",
+    faClass: "fab fa-react",
   },
   {
     name: "Database",
@@ -72,9 +52,38 @@ const skillsBar = [
     faClass: "fas fa-database",
   },
   {
-    name: "AWS",
+    name: "Node",
     // svg: '',
-    faClass: "fab fa-aws",
+    faClass: "fab fa-node",
+  },
+  {
+    name: "GitHub",
+    faClass: "fa fa-github",
+  },
+  {
+    name: "SASS",
+    // svg: '',
+    faClass: "fab fa-sass",
+  },
+  {
+    name: "Bootstrap",
+    // svg: '',
+    faClass: "fab fa-bootstrap",
+  },
+  {
+    name: "Microsoft Office",
+    // svg: '',
+    faClass: "fab fa-microsoft",
+  },
+  {
+    name: "Stack Overflow",
+    // svg: '',
+    faClass: "fab fa-stack-overflow",
+  },
+  {
+    name: "Slack",
+    // svg: '',
+    faClass: "fa fa-slack",
   },
 ];
 // Edit your projects, its name, your skills used to make it, and the url.
@@ -85,44 +94,44 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
-    name: "Project 1",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Cocktail & Recipe Generator - Group Project",
+    skills: ["HTML, CSS, JS, jQuery"],
+    url: "https://github.com/AdamSpiegel/Group-Project-1",
   },
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "Project 2",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Workout Tracker",
+    skills: ["Mongoose, Express, Node, HTML. CSS"],
+    url: "https://github.com/AdamSpiegel/Workout-Tracker",
   },
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
-    name: "Project 3",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Book Search Engine",
+    skills: ["Mongoose, Express, React, Node, Apollo-Server, GraphQL, Bootstrap, Heroku"],
+    url: "https://github.com/AdamSpiegel/Book-Search-Engine",
   },
   {
     // Add image in './styles/images.css' in #project4
     id: "project4",
-    name: "Project 4",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Progressive Budget Tracker",
+    skills: ["Mongoose, Express, Compression, Morgan, Lite-Server, PWA"],
+    url: "https://github.com/AdamSpiegel/Progressive-Budget-Tracker",
   },
   {
     // Add image in './styles/images.css' in #project5
     id: "project5",
-    name: "Project 5",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "My Total Health - Group Project",
+    skills: ["HTML, CSS, JS, NPM, Bcrypt, Chart.js, Sequelize, Express, Handlebars, mySQL"],
+    url: "https://github.com/AdamSpiegel/My-Total-Health",
   },
   {
     // Add image in './styles/images.css' in #project6
     id: "project6",
-    name: "Project 6",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Redux Store - Shop Shop",
+    skills: ["React, Redux, Stripe, Bcrypt, Mongoose, Express, Node, Apollo-Server, GraphQL, JWT, Heroku"],
+    url: "https://github.com/AdamSpiegel/Redux-Store",
   },
 ];
 // Edit your Miscellaneous Activities, its name and the url.
@@ -152,21 +161,20 @@ const miscellaneous = [
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
 // To get your own jotform link, go to https://formspree.io/
 // If you hacve the link already, paste it in the contactUrl below
-const section5Title = "Get in Touch";
+const section5Title = "Let's Connect!";
 const contact = {
   pitch:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-  copyright: "Kaustubh Mishra",
+  copyright: "Adam Spiegel",
   contactUrl: "",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-  github: "https://github.com",
-  facebook: "https://facebook.com",
-  // twitter: "https://twitter.com",
-  instagram: "https://instagram.com",
-  linkedin: "https://linkedin.com",
+  github: "https://github.com/AdamSpiegel",
+  facebook: "https://www.facebook.com/adam.spiegel.522/",
+  instagram: "https://www.instagram.com/aspieg23/",
+  linkedin: "https://www.linkedin.com/in/adam-spiegel/",
   resume: "https://novoresume.com/",
 };
 // Dont change anything here
