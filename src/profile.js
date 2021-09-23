@@ -7,7 +7,7 @@ const animation = {
   // if true, animation plays only once when element comes on screen
   once: false,
 };
-// Change your display name on tha landing display
+// Display name on tha landing display
 const header = {
   name: "Adam Spiegel",
 };
@@ -15,15 +15,12 @@ const background = {
   // Options: Snow or Particle
   type: "Snow",
 };
-// Write a para about yourself here
 // To update your image, go to './styles/images.css'
 const section2title = "About Me";
 const about = {
   paragraph:
     "Full Stack Web Developer and a recent graduate (Sept 2, 2021) of the UConn Coding Bootcamp program.  Extensive experience in Program and Project Management. A proven team leader and collaborator with 9 years of managerial experience within the corporate health and wellness industry. Recently leveraged strong problem solving and analytical skills, with a strong emphasis on team collaboration (team project application development) through the UConn Full Stack Web Development program. Looking for an exciting new career in the tech field and to learn about the opportunities available. I have a strong desire to work for an employer that can offer a strong career path with inspiring goals to meet, along with a culture of team collaboration. Please connect with me, I would love to discuss my experience and story with you more!",
 };
-// Edit your skill and the percentage you know about it
-// To Add a skill, copy any one below and paste it after the last comma
 const skillsBar = [
   {
     name: "HTML5",
@@ -86,9 +83,7 @@ const skillsBar = [
     faClass: "fa fa-slack",
   },
 ];
-// Edit your projects, its name, your skills used to make it, and the url.
-// You can omit freely anything if you dont have it
-// To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
+
 const section3Title = "Past Projects";
 const projects = [
   {
@@ -134,9 +129,6 @@ const projects = [
     url: "https://github.com/AdamSpiegel/Redux-Store",
   },
 ];
-// Edit your Miscellaneous Activities, its name and the url.
-// You can omit freely anything if you dont have it
-// To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
 const section4Title = "Upcoming Projects";
 const miscellaneous = [
   {
@@ -158,9 +150,7 @@ const miscellaneous = [
     url: "",
   },
 ];
-// Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
-// To get your own jotform link, go to https://formspree.io/
-// If you hacve the link already, paste it in the contactUrl below
+
 const section5Title = "Let's Connect!";
 const contact = {
   pitch:
@@ -168,8 +158,7 @@ const contact = {
   copyright: "Adam Spiegel",
   contactUrl: "https://formspree.io/f/myylokja",
 };
-// Paste your respective social media links. You can omit any if you dont have it
-// Upload your resume in your drive, get the shareable link and paste it in the resume section
+
 const social = {
   github: "https://github.com/AdamSpiegel",
   facebook: "https://www.facebook.com/adam.spiegel.522/",
@@ -177,7 +166,7 @@ const social = {
   linkedin: "https://www.linkedin.com/in/adam-spiegel/",
   resume: "https://drive.google.com/file/d/1owH2g0QwTcrjCNRtt144rUGjyXmbTP8a/view?usp=sharing",
 };
-// Dont change anything here
+
 export {
   animation,
   header,
